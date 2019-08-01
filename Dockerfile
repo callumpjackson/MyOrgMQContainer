@@ -1,4 +1,4 @@
-FROM mqadvanced-server:latest
+FROM mqdev-server:latest
 USER root
 RUN useradd admin -G mqm \
   && groupadd mqclient \
